@@ -1,0 +1,270 @@
+.home {
+    background-color: #efefef;
+    background-image: url(assets/homepage.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 6rem;
+    padding-bottom: 5.75rem;
+}
+
+.collapse {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    color: black !important;
+    font-weight: 600 !important;
+}
+
+.heading {
+    font-size: 3.5rem;
+    padding-top: 5rem;
+}
+
+.Crafting {
+    font-size: 4.5rem;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.appointment-btn {
+    color: black !important;
+    background-color: #79bcf5 !important;
+    font-size: 19px !important;
+    width: 33% !important;
+    border: #79bcf5 !important;
+    border-radius: 0px !important;
+}
+
+.appointment-btn:hover {
+    color: #fff !important;
+    background-color: #1e3b5a !important;
+}
+
+.section2 {
+    background-image: url(assets/second\ pagebg.jpeg);
+}
+
+.section2-row {
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
+}
+
+.Focused {
+    font-size: 3rem;
+}
+
+.description1 {
+    font-size: 20px;
+}
+
+.list {
+    padding: 9px 9px 9px 0px;
+}
+
+.read-more {
+    border: solid #79bcf5 !important;
+    border-radius: 0px !important;
+}
+
+.read-more:hover {
+    color: #fff !important;
+    background-color: #1e3b5a !important;
+}
+
+.read-more:hover {
+    background-color: solid #79bcf5 !important;
+}
+
+.contact {
+    background-color: #79bcf5 !important;
+    color: black !important;
+    border-radius: 0px !important;
+}
+
+.contact:hover {
+    color: #fff !important;
+    background-color: #1e3b5a !important;
+}
+
+.service {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.icons {
+    width: 70px !important;
+}
+
+.card {
+    width: 20rem;
+    background-color: #daf2ff !important;
+}
+
+.card:hover {
+    color: #fff;
+    background-color: #0085cb !important;
+}
+
+/* .service-row{
+padding: 2rem;
+} */
+.image-div {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.service-container {
+    background-image: url(assets/service\ bg3.webp);
+
+}
+
+.about {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+
+}
+
+/* appointment */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.appointment-section {
+    background-color: #1e3b5a;
+    padding: 50px 0;
+}
+
+.appointment-box {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin: 2rem;
+}
+
+.form-control {
+    background-color: #eaf7fb;
+    border: none;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.btn-appointment {
+    background-color: #79bcf5 !important;
+    height: 50px;
+    width: 100%;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-appointment:hover {
+    background-color: #1e3b5a !important;
+    color: white !important;
+}
+
+.emergency-cases {
+    background-color: #79bcf5;
+    padding: 47px;
+    border-radius: 10px;
+    color: black;
+    margin: 2rem;
+}
+
+.emergency-cases:hover {
+    color: white;
+    background-color: #1e3b5a;
+}
+
+.emergency-cases h5,
+.emergency-cases p {
+    margin-bottom: 15px;
+}
+
+.emergency-cases .contact-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.emergency-cases .contact-info i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.contact-section {
+    background-image: url(assets/contact\ bg.webp);
+}
+
+@media (max-width: 950px) {
+    .Crafting {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .Crafting {
+        font-size: 3rem;
+    }
+
+    .appointment-btn {
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width: 527px) {
+    .appointment-btn {
+        font-size: 12px !important;
+     
+    }
+
+    .emergency-cases {
+        margin: 1rem;
+        padding: 30px;
+    }
+
+    .appointment-box {
+        margin: 1rem;
+        padding: 20px ;
+    }
+}
+
+@media (max-width: 472px) {
+    .Crafting {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 330px) {
+    .btn-appointment {
+        font-size: 14px !important;
+    }
+}
+
+
+.footer {
+    background-image: url(assets/footer\ 3.avif);
+    padding: 40px 0;
+}
+
+.footer a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #0d2743;
+}
+
+.footer .social-icons a {
+    margin-right: 10px;
+    font-size: 20px;
+}
